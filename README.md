@@ -1,4 +1,4 @@
-![Console.Bot][/assets/USCIS.Console.jpg?raw=true "Console"]
+<img src="https://github.com/vpetkovic/USCIS-Case-Status-Tracker/blob/master/Assets/USCIS.Console.jpg">
 
 # TL;DR USCIS Case Status Tracker
 
@@ -26,13 +26,13 @@ I helped myself (and now others) by creating 3 different types of bots. One of w
   - Multi Case lookup 
   - Case Tracking
 
-![Console.Bot][/assets/USCIS.Console.jpg?raw=true "Console"]
+<img src="https://github.com/vpetkovic/USCIS-Case-Status-Tracker/blob/master/Assets/USCIS.Console.jpg">
 
 - **HTTP Trigger** [Azure Function]: on demand case status tracking via HTTP Trigger. this type provides unique https URL to be called. This is useful if you want to setup any sort of automated workflow on the cloud yourself, such as `IFTTT`, `IOS Shortcuts`, `PowerApps`, `UIPath`, etc. Features:
     - Multi Case lookup
     - Case Tracking
 
-![API.Bot][/assets/USCIS.API.jpg?raw=true "API"]
+<img src="https://github.com/vpetkovic/USCIS-Case-Status-Tracker/blob/master/Assets/USCIS.API.jpg">
 
 - **Timer Trigger** [Azure Function]: This is one goes further than HTTP trigger as it reoccurs case status tracking via Time Trigger. It executes every minute. This bot also has few features that HTTP trigger doesn't have due to fact this is type of process that is unattended. Features:
     - Multi Case lookup
@@ -40,7 +40,7 @@ I helped myself (and now others) by creating 3 different types of bots. One of w
     - Email Notification
     - Text/SMS Notification
 
-![Email.Bot][/assets/USCIS.Email.jpg?raw=true "Email"]
+<img src="https://github.com/vpetkovic/USCIS-Case-Status-Tracker/blob/master/Assets/USCIS.Email.jpg">
 
 *NOTE: Azure Functions are my personal preference but it can easily be replaced by AWS Lambdas. Feel free to contribute with such project types (bots)*
 
